@@ -1,0 +1,37 @@
+.todo-item-btn {
+  width: 25px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.todo-item-btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition-duration: 400ms;
+}
+
+.edit-btn {
+  background-color: rgb(255, 255, 161);
+}
+.delete-btn {
+  background-color: rgb(243, 123, 123);
+}
+.mark-as-done-btn {
+  background-color: rgb(78, 244, 111);
+}
+.save-btn {
+  width: 35px;
+  padding: 3.75px 0;
+  margin: 0 5px;
+  background-color: rgb(191, 227, 215);
+}
+
+.add-btn {
+  width: 50px;
+  margin: auto 5px 0;
+  border: 1px solid rgba(165, 42, 42, 0.525);
+  color: rgba(165, 42, 42, 0.525);
+  font-size: 20px;
+  background: none;
+  height: 25px;
+}
